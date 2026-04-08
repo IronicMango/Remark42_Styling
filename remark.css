@@ -1,25 +1,28 @@
+/* Modify for Light Theme */
 :root {
     --theme-primary: #f6eee1;
     --theme-secondary: #f5f8c5;
     --accent-color: #02270f;
-    --accent-color-highlight:#583003;
+    --accent-color-two:#583003;
     --text-primary: #0f172a;
     --text-secondary: #ddd;
     --text-neutral: #555;
     --accent-color-three: #dc9891;
 }
 
+/* Modify for Dark Theme */
 :root .dark {
     --theme-primary: #2e3440;
     --theme-secondary: #4c566a;
     --accent-color: #8fbcbb;
-    --accent-color-highlight:#d8dee9;
+    --accent-color-two:#d8dee9;
     --text-primary: #ddd;
     --text-secondary: #0f172a;
     --text-neutral: #555;
     --accent-color-three: #ebcb8b;
 }
 
+/* Anything below is not optimised for modification */
 :root {
     --color8: #262626;
     --color22: #2d2d2c;
@@ -234,7 +237,7 @@ a {
 }
 
 a:hover {
-    color: var(--accent-color-highlight)
+    color: var(--accent-color-two)
 }
 
 #remark42 {
@@ -345,7 +348,7 @@ a:hover {
 }
 
 .C_A:hover {
-    background-color: var(--accent-color-highlight);
+    background-color: var(--accent-color-two);
     /* background-color: rgb(var(--primary-brighter-color)) */
 }
 
@@ -357,7 +360,7 @@ a:hover {
 
 .C_A:disabled {
     /* background-color: #0aa; */
-    background-color: var(--accent-color-highlight);
+    background-color: var(--accent-color-two);
     cursor: default;
     opacity: .6
 }
@@ -382,7 +385,7 @@ a:hover {
 }
 
 .C_C:hover {
-    background-color: var(--accent-color-highlight)
+    background-color: var(--accent-color-two)
 }
 
 .C_D {
@@ -419,7 +422,7 @@ a:hover {
 }
 
 .C_G:hover {
-    background-color: var(--accent-color-highlight)
+    background-color: var(--accent-color-two)
 }
 
 .C_H {
@@ -429,7 +432,7 @@ a:hover {
 }
 
 .C_H:hover {
-    color: var(--accent-color-highlight);}
+    color: var(--accent-color-two);}
 
 .C_H:hover,
 .C_H[disabled] {
@@ -571,7 +574,7 @@ a:hover {
 }
 
 .button:focus {
-    box-shadow: 0 0 0 2px var(--accent-color-highlight);
+    box-shadow: 0 0 0 2px var(--accent-color-two);
     outline: none
 }
 
@@ -587,7 +590,7 @@ a:hover {
 }
 
 .button_kind_link:hover {
-    color: var(--accent-color-highlight)
+    color: var(--accent-color-two)
 }
 
 .button_kind_link:disabled,
@@ -601,7 +604,7 @@ a:hover {
 }
 
 .button_kind_primary:hover {
-    background: var(--accent-color-highlight)
+    background: var(--accent-color-two)
 }
 
 .button_kind_primary:hover:disabled {
@@ -614,7 +617,7 @@ a:hover {
 }
 
 .button_kind_secondary:hover {
-    box-shadow: inset 0 0 0 2px var(--accent-color-highlight)
+    box-shadow: inset 0 0 0 2px var(--accent-color-two)
 }
 
 .button_size_large {
@@ -1266,7 +1269,7 @@ a:hover {
 .comment-form__button_type_preview:focus,
 .comment-form__button_type_preview:hover {
     box-shadow: inset 0 0 0 2px var(--accent-color);
-    color: var(--accent-color-highlight)
+    color: var(--accent-color-two)
 }
 
 .comment-form__button_type_send {
@@ -1276,7 +1279,7 @@ a:hover {
 
 .comment-form__button_type_send:focus,
 .comment-form__button_type_send:hover {
-    background: var(--accent-color-highlight)
+    background: var(--accent-color-two)
 }
 
 .comment-form__control-panel {
@@ -1361,7 +1364,7 @@ a:hover {
 }
 
 .comment-form__rss-link:hover {
-    color: var(--accent-color-highlight)
+    color: var(--accent-color-two)
 }
 
 .comment-form__markdown {
@@ -1402,7 +1405,7 @@ a:hover {
 }
 
 .comment-form__toolbar-item:hover {
-     color: var(--accent-color-highlight)
+     color: var(--accent-color-two)
 }
 
 .comment-form__toolbar-icon {
@@ -1661,7 +1664,7 @@ a:hover {
 .M_C:hover,
 .M_C[aria-selected=true] {
     /* background-color: rgba(37, 156, 154, .6); */
-    background-color: var(--accent-color-highlight);
+    background-color: var(--accent-color-two);
     color: #fff;
     color: var(--theme-secondary);
     text-decoration: none
