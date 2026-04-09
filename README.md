@@ -1,2 +1,2 @@
 # Remark42_Styling
-This is my CSS file intended to make styling Remark42 comments much easier for someone who doesn't really code.
+This is my CSS file intended to make styling Remark42 comments much easier for someone who doesn't code CSS very often. You can style most of Remark42's main widget by modifying the handful of variables at the top of this file. It's a WIP so not everything is mapped, but I don't use every feature. Let me know if you have an issue and I may fix it. For a full write-up and visual of the final product in action, check out this post on [my site](https://www.ironicmango.com/posts/styling-remark42-the-easy-way/). If you find this useful, and make the file better in any way, feel free to submit a PR.
